@@ -8,6 +8,16 @@ To make viewing everything easier, you can visit the website [here](https://goog
 
 ---
 
+### What's Included
+Below, is a complete list of all content that you will find in this repository:  
+- Branding (logos, FavIcons, banners, etc)
+- Icons (provided by Icons8, FlatIcon, Figma, Google Fonts & more)
+- Core styling & script files (purposed mainly for web development)
+- Colour palettes (all themes that we have created - purposed mainly for web development)
+- Element playground (a page containing most if not all web based elements)
+
+---
+
 ### Contribution
 If you'd like to contribute any assets or information, feel free to open a PR (pull request). We will review the changes and apply them if applicable and give you credit.
 
