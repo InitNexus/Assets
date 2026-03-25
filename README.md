@@ -16,6 +16,8 @@ Below, is a complete list of all content that you will find in this repository:
 - Colour palettes (all themes that we have created - purposed mainly for web development)
 - Element playground (a page containing most if not all web based elements)
 
+Thank you to all of those who have created any external assets that we use across all projects, products, services, etc. We do not claim to own ***all*** digital media, rights to pre-used media and content goes to the original designers, creators, developers and so on.
+
 ---
 
 ### Contribution
