@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="aura">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pre-Loader</title>
+<link rel="icon" type="image/png" href="https://initnexus.github.io/Assets/assets/media/branding/aura-logo.png">
+<link rel="stylesheet" href="https://initnexus.github.io/Assets/assets/core/styling.css">
+
+<script>
+localStorage.setItem('core-theme','aura');
+</script>
+
+<style>
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.loader {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 16px;
+}
+
+.loader svg {
+    width: 100%;
+    height: 100%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+h3, p {
+    margin: 4px 0;
+}
+
+.bottom-text {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    color: var(--text-primary);
+}
+</style>
+</head>
+<body>
+
+<div class="loader">
+<svg viewBox="0 0 100 100" fill="none">
+<circle cx="50" cy="50" r="40" stroke="var(--accent-primary)" stroke-width="8" stroke-linecap="round" stroke-dasharray="180 80"/>
+</svg>
+</div>
+
+<h3>Please wait</h3>
+<p>We need to verify you're human...</p>
+
+<div class="bottom-text">© NexusByte Initiative 2026. All Rights Reserved.</div>
+
+<script src="https://initnexus.github.io/Assets/assets/core/script.js"></script>
+<script>
+setTimeout(() => { window.location.href = "https://initnexus.github.io/Assets/main/home.html"; }, 3000);
+</script>
+
+</body>
+</html>
